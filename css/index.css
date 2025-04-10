@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+section div{
+    margin: 50px;
+    color: #202020;
+    background-color: #ccc;
+    width: 400px;
+    height: 770px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+section div h1{
+    font-size: 25px;
+    padding-top: 10px;
+}
+section div p{
+    font-size: 17px;
+    padding: 20px 20px;
+}
+section div button{
+    font-size: 17px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #202020;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+section div button:hover{
+    transition: 0.5s;
+    background-color: #5a5959;
+}
+section div img{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
